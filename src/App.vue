@@ -1,15 +1,20 @@
 <script setup>
-    import HelloWorld from './components/HelloWorld.vue';
+import NavBar from './components/NavBar.vue';
+import Header from './components/Header.vue';
 </script>
 
 <template>
-  <div>
-      <HelloWorld />
+  <div class="p-10 px-20">
+
+      <NavBar />
+      <Header />
+      About
+
   </div>
 </template>
 
 <script>
    export default {
-    
+
    }
 </script>
